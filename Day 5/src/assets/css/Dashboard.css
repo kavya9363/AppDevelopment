@@ -1,0 +1,128 @@
+.dashboard {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: space-between;
+  }
+ .dashboard-header h1{
+  text-align: center;
+  align-items: center;
+ }
+ .bar{
+   margin-bottom: 1300px;
+ }
+ .line{
+  margin-bottom: 1000px;
+ }
+ .pie{
+  margin-bottom: 200px;
+ }
+ .container3 {
+  height: 100vh;
+  width: 135%;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  text-align: end;
+  background-color: #ecf1f2;
+}
+  /* You can style each section component individually in their respective files. */
+
+  /* UserOverview.css */
+.user-overview {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.user-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.body2 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+svg {
+  width: 300px;
+}
+.side-icons{
+	/* box-shadow: 2px 2px 5px black;
+	height: 100%; */
+	position: relative;
+	width: 60%;
+	height: 100vh;
+	background-color:#5D4E7B;
+	color: #fff;
+	font-size: 0.65rem;
+}
+.headline{
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	height: 15vh;
+}
+.trans{
+	margin-bottom: 0%;
+}
+.css-gceg1b{
+  position: absolute;
+  top: 450px;
+}
+/* .App {
+	text-align: center;
+  }
+  
+  .App-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	}
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  
+  .App-link {
+	color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  .trans{
+	margin-left: 500px;
+  } */
