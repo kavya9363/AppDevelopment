@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Oxygen:wght@400;700&family=Raleway:wght@400;500;700;800&family=Roboto&family=Rochester&family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+/* intro */
+.banner1{
+    background: linear-gradient(to left, #1513137a, #122ecb);
+    background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png") ;
+    padding: 100px 0px;
+    position: relative;      
+}
+.back-color{
+    background: linear-gradient(to left, #1513137a, #122ecb) !important;
+    background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png") ; 
+    font-family: 'Poppins', sans-serif;
+}
+.banner1-content{
+    display: inline-block;
+}
+.banner1-content .banner-title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+.banner1-content .banner-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+}
+
+.banner1-image{
+    display: inline-block;
+}
+
+.banner-animated-img{
+    height: 380px;
+    width: 480px;
+}
+
+.banner-install{
+    margin-left: 40px;
+}
+.playstore, .appstore{
+    display:inline-block;
+    margin-left:10px ;
+}
+
+.span-back{
+    background: url('https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441560/pattern_malyuu.png');
+}
+
+/* about */
+.banner2 {
+    background: #0000004d;
+    /* background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441562/applight-wave_twlcja.svg"); */
+    padding: 90px 0 140px 0px;
+    display: block;
+}
+
+.about,.about-content,.about-icons{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+	width: 135px;
+	height: 135px;
+	border-radius: 100px;
+	background: #122ecb;
+	background:  linear-gradient(to left, #1513137a, #122ecb);
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 135px;
+	margin: 20px 20px 20px 20px ;
+}
+.about-icons .icon .thunder,
+.about-icons .icon .heart,
+.about-icons .icon .mobile
+{
+    display:flex;
+    margin-top: 30%;
+    align-content: center;
+    
+}
+.about-icons{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+svg{
+    display: inline-block;
+}
+
+.about .title{
+    font-size: 50px;
+}
+p.content{
+    font-size: 18px;
+}
+.icon-title{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* video-section */
+.video-section {
+	background: url("https://res.cloudinary.com/dqpyrzzw7/image/upload/v1695441566/video-bg_mxrvoh.jpg") no-repeat fixed center;
+	background-size: cover;
+	overflow: hidden;
+}
+.video-overlay {
+	background: linear-gradient(to left, #1513137a, #122ecb);
+}
+.video-section h3 {
+	font-weight: 600;
+	font-size: 38px;
+    text-align: center;
+}
+.video-section i {
+	display: block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	background: #0000004d;
+	color: #122ecb;
+	font-size: 30px;
+	line-height: 70px;
+	margin: 0 auto;
+	cursor:pointer;
+}
+.video-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	align-content: center !important;
+	-ms-flex-line-pack: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	-ms-flex-pack: center !important;
+	justify-content: center !important;
+}
+.video-popup .video-src {
+	position: relative;
+	width: 700px;
+	max-width: 80%;
+}
+.video-popup .iframe-src {
+	width: 100%;
+	height: 0;
+	padding-top: 56.3%;
+	position: relative;
+	display: none;
+}
+.video-popup .iframe-src iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#video-icon{
+	margin-top: 10px;
+	text-align: center;
+	align-items: center;
+}
+/* faq */
+.faq{
+    padding: 150px 0 100px 0;
+    display: block;
+}
+.faq .title{
+    font-size: 40px;
+}
+.faq .content,
+.faq .title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.q{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+    width: 100%;
+}
+.a{
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+    width: 90%;
+}
+.faq .questions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0px 100px 0px 130px;
+}
+.qna{
+    height: 30%;
+    width: 35%;
+    margin: 20px 0 20px 0;
+}
+
+.testimonial .title,
+.testimonial .content{
+    display: block;
+}
+.testimonial .title p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.testimonial .content{
+    font-size: 21px;
+    text-align: center;
+    color: #ffffff;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-card{
+    margin: 50px 20px 20px 20px;
+}
+.left,.right:hover{
+    cursor: pointer;
+}
+
+
+/* contact */
+
+.contact{
+	background: #ffffff;
+	padding: 60px 0 20px 0;
+}
+
+.contact-components{
+	margin: 30px 20px 20px 60px;
+	padding: 10px 0 80px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.email-form{
+	display: inline-block;
+	padding: 20px 30px 20px 30px;
+}
+.contact-content{
+	font-size: 20px;
+	text-align: center;
+}
+.contact-title{	
+	font-size: 40px;
+	text-align: center;
+}
+.contact-details{
+	display: inline-block;
+	/* background: linear-gradient(to left, #7a60ff, #cd9ffa); */
+}
+
+
+
+/* Admissions */
+.admissions{
+	background: #0000004d;
+	padding: 100px 0 80px 0;
+}
+.admissions .title
+{
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	
+}
+.admissions .content{
+	text-align: center;
+	font-size: 18px;
+	display: block;
+}
+.admission-route{
+	text-align: center;
+	padding: 120px 0 50px 0;
+}
+.admission-btn{
+	color: #122ecb;
+    padding: 10px 40px;
+    border: 2px solid #122ecb;
+    border-radius: 7px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+}
+.admission-btn:hover{
+	background: #122ecb;
+	color: #0000004d;
+}
+
+/* footer */
+
+.f-logo{
+	width:20%;
+}
+
+.footer-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.f-in,.f-utube,.f-fb,.f-twitter,.f-ig{
+	padding: 5px;
+	color: rgb(74, 74, 74);
+}
+.links-terms{
+	background:#ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
+.links-terms p{
+	font-size: 12px;
+}
+.privacy{
+	margin-left: 300px;
+}
+.privacy:hover{
+	cursor: pointer;
+}
+.tnc{
+	margin-left: 50px;
+}
+.tnc{
+	cursor: pointer;
+}
+.FAQ{
+	margin-left: 50px;
+}
+.privacy-policy-container {
+	background: linear-gradient(to left, rgba(122, 96, 255, 0.178), rgba(204, 159, 250, 0.297));
+	color: #000;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 70px;
+	min-height: 40vh;
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+.privacy-title{
+	text-align: center;
+	align-items:end;
+	display: inline-block;
+	font-size: 100px;
+}
+.mani-policy{
+	background-color: rgb(205, 159, 250, 0.90);
+}
+
+.warning-icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.privacy-policy-text {
+	flex: 1;
+}
+
+
+
+/* .contact-details{
+	background: transparent;
+} */
+
+/* section .conatct{
+	background: #ffffff;
+}
+#contact_form .form-input {
+	border: 1px solid #e4e4e4;
+}
+input {
+	height: 42px;
+	padding: 0 1rem;
+	background: #fff;
+	border-radius: 30px;
+	margin-bottom: 1rem;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border:0;
+}
+#contact_form textarea {
+	resize: none;
+	padding: 1rem;
+	height: 150px;
+	background: #fff;
+	border: 0;
+	border-radius: 30px;
+	margin-bottom: 1rem;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.btn-grad {
+ padding: .7rem 2rem;
+	display: inline-block;
+	color: #fff;
+	border-radius: 2rem;
+	border: 0;
+	background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	cursor:pointer;
+}
+.contact-info {
+	padding: 2rem 2rem 1rem;
+	border-radius: 8px;
+	background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+}
+.contact-item {
+	margin:23px 0px;
+}
+.contact-item i {
+	font-size: 20px;
+}
+.contact-item p {
+	line-height: 20px;
+	margin: 0;
+}
+#contact_form {
+	margin-bottom:20px;
+}
+
+#contact_form {
+	margin-bottom:20px;
+} */
