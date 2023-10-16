@@ -1,0 +1,52 @@
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.name-email{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0 0 18px 0;
+}
+
+.input-name{
+    display: inline-block;
+}
+.input-name .name{
+    margin:0 20px 0 0 ;
+}
+#form-inputt .name,
+#form-inputt .email,
+#form-inputt .sub,
+#form-inputt .msg
+{
+    border-color: gray;
+
+}
+.input-email .email{
+    margin:0 0px 0 20px ;
+}
+.input-email{
+    display: inline-block;
+}
+
+.email-sub .sub{
+    width: 100%;
+}
+
+.email-msg .msg{
+    width:100%;
+    height: 150px;
+}
+
+.email-submit .submitt{
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    border-color: #000;
+    background:  linear-gradient(to left, #7a60ff, #cd9ffa);
+    border-radius: 20px;
+}

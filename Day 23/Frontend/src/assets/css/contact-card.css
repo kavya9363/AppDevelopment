@@ -1,0 +1,35 @@
+/* .contact-card{
+    background: transparent;
+    display: inline-block;
+} */
+.contact-innercontent{
+    display: inline-block;
+}
+.contact-card .details{
+    display: inline-block;
+}
+.details{
+    display: flex;
+}
+.contact-info {
+	padding: 0rem 2rem 1rem;
+	border-radius: 8px;
+	background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+}
+.contact-item {
+	margin:0px 0px;
+    width: 80%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.contact-item p {
+	line-height: 20px;
+	margin: 0;
+}
+.contact-icons{
+    width: 20px;
+
+}
